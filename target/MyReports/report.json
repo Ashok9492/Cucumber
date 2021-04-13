@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-13T16:29:20.891Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1998300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add to Cart",
+        "description": "",
+        "id": "add-to-cart;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20783964000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "uSer on homepage",
+            "match": {
+              "location": "stepDefinitions.AddtoCartStpes.u_ser_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12236902200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Women link",
+            "match": {
+              "location": "stepDefinitions.AddtoCartStpes.user_clicks_on_women_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21983600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Women page should be displayed",
+            "match": {
+              "location": "stepDefinitions.AddtoCartStpes.women_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 491520100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select blouse",
+            "match": {
+              "location": "stepDefinitions.AddtoCartStpes.user_select_blouse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//img[@title\u003d\u0027Blouse\u0027])[1]\"}\n  (Session info: chrome\u003d89.0.4389.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-BV997OK\u0027, ip: \u0027192.168.0.111\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\sky\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:51797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2fe7dbf4f7db52edaf6ddc99e302ef46\n*** Element info: {Using\u003dxpath, value\u003d(//img[@title\u003d\u0027Blouse\u0027])[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.AddtoCartStpes.user_clicks_on_view_larger_and_clicks_close(AddtoCartStpes.java:47)\r\n\tat ✽.user clicks on View larger and clicks close(file:///C:/Users/sky/eclipse-workspace/cucumber/src/main/resources/featurefile/AddToCart.feature:9)\r\n",
+              "duration": 70777800,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user clicks on View larger and clicks close",
+            "match": {
+              "location": "stepDefinitions.AddtoCartStpes.user_clicks_on_view_larger_and_clicks_close()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enter quantity",
+            "match": {
+              "location": "stepDefinitions.AddtoCartStpes.user_enter_quantity()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "selects size and colour",
+            "match": {
+              "location": "stepDefinitions.AddtoCartStpes.selects_size_and_colour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks on Add to cart button",
+            "match": {
+              "location": "stepDefinitions.AddtoCartStpes.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user close the browser",
+            "match": {
+              "location": "stepDefinitions.AddtoCartStpes.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add to Cart",
+    "description": "",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/featurefile/AddToCart.feature",
+    "tags": []
+  }
+]
